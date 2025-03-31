@@ -18,9 +18,7 @@ export default function Page(props) {
         className='fixed left-0 z-10 text-black bg-white w-fit md:hover:opacity-50 active:opacity-50'>
         LOGO
       </button>
-      <div className='fixed right-0 z-10 text-black bg-white w-fit md:hover:opacity-50 active:opacity-50'>
-        All rights reserved © 2023 by SEJIN
-      </div>
+
       <div className='fixed z-0 w-full h-screen'>
         <Scene>
           <ambientLight intensity={0.5} />
